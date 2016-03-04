@@ -1,0 +1,177 @@
+/**@font-face {
+  font-family: 'avenir-light';
+  src: url('fonts/AvenirLTStd-Light.otf');
+}
+
+p {
+  font-family:'avenir-light';
+}
+
+a {
+  font-family:'avenir-light';
+}**/
+@font-face {
+  font-family: 'george';
+  src: url("fonts/Georgia Italic.ttf");
+}
+span {
+  font-family: 'george',Times New Roman;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h2, h3 {
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.img-resp {
+  width: 100%;
+}
+
+.topo {
+  background-color: #fbccca;
+  height: 180px;
+}
+
+.logo {
+  padding-top: 40px;
+  text-align: right;
+}
+
+.banner {
+  margin-top: 10px;
+}
+
+.welcome, .map, .unique {
+  margin-top: 60px;
+}
+.welcome h1, .map h1, .unique h1 {
+  text-align: right;
+  font-size: 100px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.ass {
+  margin-top: 25px;
+}
+
+.baixo-gianca {
+  margin-top: 15px;
+}
+
+.map-div {
+  background-image: url("../img/map.png");
+  height: 700px;
+  margin-top: 230px;
+}
+
+.text-map {
+  margin-top: -100px;
+}
+
+.unique h1 {
+  font-size: 80px;
+  text-align: left;
+}
+
+.migoto {
+  margin-top: 25px;
+}
+
+.unique-line1 {
+  margin-top: 25px;
+}
+
+.rodape-texto {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+footer {
+  height: 70px;
+  background-color: #000000;
+  padding-top: 25px;
+  bottom: 0;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #ffffff;
+}
+
+.barra {
+  border-right: #ffffff 1px solid;
+}
+
+.content-btn-side {
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  bottom: 80;
+}
+
+.btn-talk {
+  margin-top: 15px;
+}
+.link {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.link:hover {
+  color: #000000;
+}
+
+.mig {
+  margin-bottom: 25px;
+}
+
+ol, ul {
+  /* margin-top: 71px; */
+  margin-bottom: 20px !important;
+}
+
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  margin: 1;
+  background-color: #000;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000;
+  background-color: #ccc;
+  border-radius: 0px;
+}
+
+.carousel-caption {
+  position: relative;
+  right: 0 !important;
+  bottom: 20px;
+  left: 0 !important;
+  z-index: 10;
+  padding-top: 25px !important;
+  padding-bottom: 20px;
+  width: 700px !important;
+  color: #000;
+  text-align: left;
+  float: left;
+}

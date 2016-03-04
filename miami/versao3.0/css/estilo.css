@@ -1,0 +1,393 @@
+/**@font-face {
+  font-family: 'avenir-light';
+  src: url('fonts/AvenirLTStd-Light.otf');
+}
+
+p {
+  font-family:'avenir-light';
+}
+
+a {
+  font-family:'avenir-light';
+}**/
+@font-face {
+  font-family: 'george';
+  src: url("fonts/Georgia Italic.ttf");
+}
+span {
+  font-family: 'george',Times New Roman;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h2, h3 {
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.img-resp {
+  width: 100%;
+}
+
+.topo {
+  background-color: #fbccca;
+  height: 180px;
+}
+
+.logo {
+  padding-top: 40px;
+  text-align: right;
+}
+
+.banner {
+  margin-top: 10px;
+}
+
+.welcome, .map, .unique {
+  margin-top: 60px;
+}
+.welcome h1, .map h1, .unique h1 {
+  text-align: right;
+  font-size: 100px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.ass {
+  margin-top: 25px;
+}
+
+.baixo-gianca {
+  margin-top: 15px;
+}
+
+.map-div {
+  background-image: url("../img/map.png");
+  height: 700px;
+  margin-top: 230px;
+}
+
+.text-map {
+  margin-top: -100px;
+}
+
+.unique h1 {
+  font-size: 80px;
+  text-align: left;
+}
+
+.migoto {
+  margin-top: 25px;
+}
+
+.unique-line1 {
+  margin-top: 25px;
+}
+
+.rodape-texto {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+footer {
+  height: 70px;
+  background-color: #000000;
+  padding-top: 25px;
+  bottom: 0;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #ffffff;
+}
+
+.barra {
+  border-right: #ffffff 1px solid;
+}
+
+.content-btn-side {
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  bottom: 80;
+}
+.btn-see {
+  width: 31px;
+  height: 190px;
+}
+
+.btn-talk {
+  margin-top: 15px;
+}
+.link {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.link:hover {
+  color: #000000;
+}
+
+.mig {
+  margin-bottom: 25px;
+}
+
+ol, ul {
+  /* margin-top: 71px; */
+  margin-bottom: 20px !important;
+}
+
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  margin: 1;
+  background-color: #000;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000;
+  background-color: #ccc;
+  border-radius: 0px;
+}
+
+.carousel-caption {
+  position: relative;
+  right: 0 !important;
+  bottom: 20px;
+  left: 0 !important;
+  z-index: 10;
+  padding-top: 25px !important;
+  padding-bottom: 20px;
+  width: 700px !important;
+  color: #000;
+  text-align: left;
+  float: left;
+}
+.carrosel-ajuste-align {
+  margin-left: 450px !important;
+  width:110px;
+}
+.galeria-ajuste-align {
+  margin-top:50px;
+  text-align:center;
+}
+.fechar {
+  float: right;
+  margin-top: 20px;
+  background-color:$preto !important;
+  margin-right: 20px;
+}
+.left-arrow {
+  margin-left: 0% !important;
+  margin-top: 30% !important;
+}
+.right-arrow {
+  margin-top: 30%;
+  left: 80%;
+}
+.left-gal {
+  left:30% !important;
+}
+.left-gal-2 {
+  left:14% !important;
+}
+.tt-map {
+margin-top:-230px;
+}
+.btn-see-2 {
+  display: none;
+}
+.btn-talk-2 {
+  display: none;
+}
+/**mobile**/
+@media (max-width: 1200px) {
+  .carrosel-ajuste-align {
+    margin-left: 350px !important;
+    width:110px;
+  }
+}
+@media (max-width: 991px) {
+  .carrosel-ajuste-align {
+    margin-left: 235px !important;
+    width:110px;
+  }
+  .mg-mob {
+    margin-top: 25px;
+  }
+  .mg-mob-2 {
+    margin-bottom: 25px;
+  }
+  .left-gal {
+    left:16% !important;
+  }
+  .left-gal-2 {
+    left:0% !important;
+  }
+}
+@media (max-width: 780px) {
+  .carrosel-ajuste-align {
+    display:none;
+  }
+  .mg-mob-3 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .mg-0 {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 771px) {
+  .welcome, .map, .unique {
+    margin-top: 10px;
+  }
+  footer {
+    height: 80px;
+  }
+  .topo {
+    height: 150px;
+  }
+}
+@media (max-width: 767px) {
+  footer {
+    height: 170px;
+  }
+  .item {
+    left:3% !important;
+  }
+  .left-arrow {
+    margin-left: 5% !important;
+    margin-top: 30% !important;
+  }
+  .right-arrow {
+    margin-top: 30%;
+    left: 83%;
+  }
+}
+@media (max-width:580px) {
+  .carousel-caption {
+    font-size: 8px;
+  }
+  h1 {
+    font-size: 36px !important;
+  }
+}
+  @media (max-width:450px) {
+    .topo {
+        height: 120px;
+    }
+    .logo {
+    padding-top: 25px;
+    float: right;
+  }
+  .log {
+        margin: 0px -42px auto;
+  }
+  .map-div {
+    margin-top: 284px;
+  }
+  .ass-img {
+    width: 30%;
+  }
+  .map-div {
+    background-image: url("../img/map.png");
+    height: 700px;
+    margin-top: 200px;
+    background-size: 105%;
+    background-repeat: no-repeat;
+  }
+  .text-map {
+    margin-top: -500px;
+  }
+  .tt-map {
+    padding-top: -255px;
+    margin-top: -162px;
+  }
+  .resp-none {
+    display: none;
+  }
+  .btn-see-2 {
+    margin-top: 0px;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    background-color: #fbccca;
+    width: 210px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 5px;
+    color:#000;
+    text-decoration: none !important;
+    margin-bottom: 25px;
+  }
+
+  .btn-talk-2 {
+    display: block;
+    margin-top: 0px;
+    margin-right: 15px;
+    float: right;
+    background-color: #000;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    }
+    .btn-talk-2 a {
+      color:#fff;
+      text-decoration: none;
+    }
+    .btn {
+      border-radius:0px !important;
+
+    }
+    .img-cat {
+      width: 150px !important;
+      margin-left: 24%;
+      height: 224px !important;
+    }
+    .caption-cat {
+      width: 160px !important;
+      margin-left: 24%;
+    }
+    .fechar {
+      margin-bottom: 25px;
+    }
+    .welcome {
+      margin-top: -10px;
+    }
+    .unique {
+      margin-top: 30px;
+    }
+    .rodape-texto {
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
+    .carousel-inner {
+    position: relative;
+    width: 104% !important;
+    overflow: hidden;
+    margin-left: -12px !important;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
